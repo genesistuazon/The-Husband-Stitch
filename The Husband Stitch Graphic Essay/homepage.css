@@ -1,0 +1,18 @@
+body {
+  background-image: url('Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #cccccc; /* Fallback color if image fails to load */
+	padding: 0;
+	margin: 0;
+}
+
+.photowall{
+  margin: 0px;
+	padding: 0px;
+	width: 99vw;
+	height: 99vh;
+  object-fit: contain;
+}
